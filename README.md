@@ -9,7 +9,7 @@ the website's specialized for your banking needs and  other nessesities as well.
 - implentation of allowing users to search for the type of bank.
 - implentation of allowing users to shop or make bill Payments. 
 
-# Below are the Screenshots of the Wesbsite structure
+# Below are the Screenshots of the Website Structure
 (Main Section)
 ![img2](https://github.com/DanielsWebDevelopment/AllinOne-Financial-Website/assets/129445203/5fc38b29-4955-4140-9669-a09b964521b1)
 
