@@ -1,0 +1,685 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #ffffff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+/* header section */
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #B7D3FF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.hamburger {
+    display: none;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li a {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin: 0 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+/* end header section */
+/* Main Section*/
+#main-title h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: #202020;
+}
+
+#main-title p {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: #202020;
+}
+
+.bank-images img {
+    display: block;
+    height: 50px;
+    position: relative;
+    top: 180px;
+    left: 250px;
+    margin: 30px;
+    box-shadow: 0px 2px 5px grey;
+    border-radius: 50px;
+}
+
+.bank-btns button{
+    display: block;
+    height: 33px;
+    width: 200px;
+    box-shadow: 0px 2px 5px grey;
+    background-color: #B7D3FF;
+    position: relative;
+    bottom: 69px;
+    left: 295px;
+    margin: 48px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 300ms ease;
+}
+
+.bank-btns button:hover{
+    margin-left: 4rem;
+}
+.bank-btns a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+    font-weight: 600;
+    text-align: center;
+}
+
+.blobs {
+    height: 250px;
+    width: 250px;
+    position: relative;
+    bottom: 500px;
+    left: 570px;
+    background-color: #1b72ff;
+    border-radius: 50%;
+    opacity: 25%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1),
+    0 4px 8px rgba(0, 0, 0, 0.1),
+    0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.blobs1 {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    bottom: 500px;
+    left: 570px;
+    background-color: #1b72ff;
+    border-radius: 50%;
+    opacity: 25%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1),
+    0 4px 8px rgba(0, 0, 0, 0.1),
+    0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.blobs2 {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    bottom: 500px;
+    left: 670px;
+    background-color: #1b72ff;
+    border-radius: 50%;
+    opacity: 25%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1),
+    0 4px 8px rgba(0, 0, 0, 0.1),
+    0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.blobs3 {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    bottom: 520px;
+    left: 10px;
+    background-color: #1b72ff;
+    border-radius: 50%;
+    opacity: 25%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1),
+    0 4px 8px rgba(0, 0, 0, 0.1),
+    0 8px 16px rgba(0, 0, 0, 0.1);
+}
+/* end main section */
+/* bank Section */
+
+.bnk {
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.bnk.show {
+    opacity: 1;
+}
+
+.line{
+    height: 1px;
+    width: 100%;
+    border: 1px solid #fff;
+    position: relative;
+    bottom: 450px;
+}
+
+#banks h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+    margin-top: 230px;
+    margin-left: 29px;
+    position: relative;
+    bottom: 550px;
+    color: #202020;
+}
+
+.flex-container {
+    display: flex;
+    margin: 10px;
+}
+
+.flexbox-item {
+    width: 300px;
+    height: 170px;
+    background-color: rgb(122, 122, 122);
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.flexbox-item-1 {
+    min-height: 170px;
+    box-shadow: 0px 2px 5px rgb(236, 235, 235);
+    background-color: #ffffff;
+    position: relative;
+    bottom: 550px;
+}
+
+.flexbox-item-2 {
+    min-height: 230px;
+    position: relative;
+    right: 10px;
+    box-shadow: 0px 2px 5px black;
+    background-color: #ffffff;
+    bottom: 550px;
+}
+
+.flexbox-item-3 {
+    min-height: 230px;
+    position: relative;
+    right: 20px;
+    box-shadow: 0px 2px 5px #e2e2e2;
+    background-color: white;
+    bottom: 550px;
+}
+
+.flexbox-item-1 h3 {
+     display: inline;
+     background-color: white;
+}
+
+.flexbox-item-1 a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 900;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.flexbox-item-1 a:hover{
+    color: #B7D3FF;
+    margin-left: 1rem;
+}
+
+.flexbox-item-1 button{
+    display: block;
+    height: 33px;
+    margin: 6px 10px;
+    border-radius: 5px;
+    background-color: #B7D3FF;
+    outline: none;
+    border: none;
+    width: 230px;
+    margin-top: 7px;
+    box-shadow: 2px 2px 8px black;
+}
+
+.flexbox-item-2 h4 {
+    margin: 10px 8px;
+    padding: 7px;
+    background-color: #B7D3FF;
+    box-shadow: 0px 2px 2px grey;
+    font-weight: 600;
+    border-radius: 12px;
+}
+
+.flexbox-item-2 p{
+    margin-left: 5px;
+    font-weight: 600;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    color: #111111;
+}
+
+.flexbox-item-2 a{
+    position: relative;
+    top: 50px;
+    left: 130px;
+    font-weight: 600;
+    font-size: 13px;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.3s ease;
+}
+
+.flexbox-item-2 a:hover{
+    color: #B7D3FF;
+    padding: 5px;
+}
+
+.flexbox-item-3 {
+    overflow: hidden;
+}
+
+.flexbox-item-3 img {
+    width: 100%;
+    height: 100%;
+}
+
+.flexbox-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+/* End bank Section */
+
+/* other Sights Section */
+.flexbox{
+    width: 205px;
+    height: 180px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px black;
+    background-color: #00284E;
+    margin: 10px 5px;
+    position: relative;
+    transition: transform 300ms, box-shadow 300ms;
+    overflow: hidden;
+    cursor: pointer;
+    bottom: 500px;
+}
+
+.flexbox:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 2px 5px black;
+}
+
+#other-sites h1 {
+    font-size: 25px;
+    position: relative;
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
+    bottom: 350px;
+}
+
+.flexbox img {
+    height: 40px;
+    margin-top: 36px;
+    margin-left: 22px;
+}
+.flexbox h1 {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    top: 95px;
+    left: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.flexbox a {
+    position: relative;
+    bottom: 20px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+#other-sites h1 {
+    position: relative;
+    bottom: 500px;
+    font-size: 28px;
+    color: #202020;
+}
+/* About Section */
+.about-container{
+    text-align: center;
+}
+
+#about-us {
+    position: relative;
+    bottom: 350px;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    color: #202020;
+}
+
+.box {
+    height: 450px;
+    width: 95%;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    position: relative;
+    bottom: 250px;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1),
+    0 4px 8px rgba(0, 0, 0, 0.1),
+    0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.box h1 {
+    margin-top: 30px;
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.box p {
+    margin: 30px 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.box img {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.bottom-title  h1 {
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+}
+/* End About Section */
+
+/* Footer Section */
+.footer{
+    text-align: center;
+    background-color: #B7D3FF;
+    height: 100px;
+}
+
+.footer h5 {
+    position: relative;
+    top: 30px;
+}
+/* End Footer Section  */
+
+/* media queries */
+
+@media only screen and (min-width: 1024px){
+    #main-title h1 {
+        text-align: center;
+        font-size: 52px;
+        margin-top: 120px;
+        font-family: 'Poppins', sans-serif;
+        color: #202020;
+    }
+    
+    #main-title p {
+        text-align: center;
+        font-size: 24px;
+        font-family: 'Poppins', sans-serif;
+        color: #202020;
+    }
+
+    .bank-images img {
+        display: block;
+        height: 80px;
+        position: relative;
+        top: 180px;
+        left: 600px;
+        margin: 30px;
+        box-shadow: 0px 2px 5px grey;
+        border-radius: 50px;
+    }
+
+    .bank-btns button{
+        display: block;
+        height: 45px;
+        width: 400px;
+        box-shadow: 0px 2px 5px grey;
+        background-color: #B7D3FF;
+        position: relative;
+        bottom: 179px;
+        left: 700px;
+        margin: 70px;
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        transition: 300ms ease;
+    }
+
+    .bank-btns button:hover{
+        margin-left: 4rem;
+    }
+    .bank-btns a {
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        cursor: pointer;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .blobs {
+        height: 450px;
+        width: 450px;
+        position: relative;
+        bottom: 800px;
+        left: 1250px;
+        background-color: #1b72ff;
+        border-radius: 50%;
+        opacity: 25%;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1),
+        0 4px 8px rgba(0, 0, 0, 0.1),
+        0 8px 16px rgba(0, 0, 0, 0.1);
+    }
+
+    .flexbox-item-1 {
+        min-height: 370px;
+        width: 250px;
+        box-shadow: 0px 2px 5px rgb(236, 235, 235);
+        background-color: #ffffff;
+        position: relative;
+        bottom: 950px;
+        left: 400px;
+    }
+
+    .flexbox-item-2 {
+        min-height: 370px;
+        width: 450px;
+        position: relative;
+        right: 10px;
+        box-shadow: 0px 2px 5px black;
+        background-color: #ffffff;
+        bottom: 950px;
+        left: 400px;
+    }
+
+    .flexbox-item-3 {
+        min-height: 370px;
+        width: 450px;
+        position: relative;
+        right: 20px;
+        box-shadow: 0px 2px 5px #ffffff;
+        background-color: white;
+        bottom: 950px;
+        left: 400px;
+    }
+
+    .flexbox-item-1 button{
+        display: block;
+        height: 80px;
+        width: 450px;
+        margin: 6px 10px;
+        border-radius: 5px;
+        background-color: #B7D3FF;
+        outline: none;
+        border: none;
+        width: 230px;
+        margin-top: 7px;
+        box-shadow: 2px 2px 8px black;
+    }
+
+    .flexbox-item-1 a:hover{
+        color: #3412f3;
+        margin-left: 1rem;
+    }
+
+    .flexbox-item-2 a{
+        position: relative;
+        top: 170px;
+        left: 280px;
+        font-weight: 600;
+        font-size: 20px;
+        text-decoration: none;
+        color: #000000;
+        font-family: 'Poppins', sans-serif;
+        transition: 0.3s ease;
+    }
+
+    #banks h1{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 900;
+        font-size: 28px;
+        margin-top: 30px;
+        margin-left: 429px;
+        position: relative;
+        bottom: 950px;
+        color: #202020;
+    }
+
+    .flexbox-item-1 a{
+        text-decoration: none;
+        color: black;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: 900;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    .flexbox-item-2 p{
+        margin-left: 20px;
+        font-weight: 600;
+        font-size: 14px;
+        font-family: 'Poppins', sans-serif;
+        padding: 10px;
+        color: #111111;
+    }
+    /* other sites sectin */
+    #other-sites h1 {
+        font-size: 35px;
+        position: relative;
+        margin-left: 400px;
+        font-family: 'Poppins', sans-serif;
+        bottom: 850px;
+    }
+
+    .flexbox{
+        width: 305px;
+        height: 280px;
+        background-color: black;
+        border-radius: 10px;
+        box-shadow: 0px 2px 5px black;
+        background-color: #00284E;
+        margin: 10px 5px;
+        position: relative;
+        transition: transform 300ms, box-shadow 300ms;
+        overflow: hidden;
+        cursor: pointer;
+        bottom: 850px;
+        left: 390px;
+    }
+    
+    .flexbox:hover{
+        transform: scale(1.1);
+        box-shadow: 0px 2px 5px black;
+    }
+
+    .flexbox h1 {
+        color: white;
+        font-size: 26px;
+        font-weight: 600;
+        position: relative;
+        top: 140px;
+        left: 10px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+    }
+
+    .flexbox img {
+        height: 50px;
+        margin-top: 73px;
+        margin-left: 22px;
+    }
+
+    #about-us {
+        position: relative;
+        bottom: 650px;
+        font-size: 38px;
+        font-family: 'Poppins', sans-serif;
+        color: #202020;
+    }
+
+    .box {
+        height: 450px;
+        width: 55%;
+        background-color: rgb(255, 255, 255);
+        margin: 0 auto;
+        position: relative;
+        bottom: 550px;
+        border-radius: 15px;
+        border: 1px solid black;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1),
+        0 4px 8px rgba(0, 0, 0, 0.1),
+        0 8px 16px rgba(0, 0, 0, 0.1);
+    }
+}
+/* end media queries */
