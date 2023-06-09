@@ -2,7 +2,7 @@
 The AllInONe Website merges all your banks into one place!  
 
 # AllInOne was designed for users to who'd like to keep things a little cleaner
-the website's was developed for a users banking needs and other nesessities as well allowing users
+The website's was developed for a users banking needs and other nesessities as well allowing users
 to search for there type a bank, add it to there profile and be able to bank from there without  
 the use of multiple banking apps on your phone. 
 
