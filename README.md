@@ -1,5 +1,7 @@
-## AllinOne-Financial-Website
-The AllInONe Website merges all your banks into one place!  
+![All_in_one_financial (3)](https://github.com/DanielsWebDevelopment/AllinOne-Financial-Website/assets/129445203/07a198fa-3783-408b-9416-604784dae598)
+
+
+### The AllInOne Website merges all your banks into one place!  
 
 ## AllInOne was designed for users to who'd like to keep things a little cleaner
 The website's was developed for a users banking needs and other nesessities as well allowing users
